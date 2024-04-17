@@ -1,0 +1,6 @@
+ a1 Aung 9.0
+ a2 Hnin 8.0
+ a3 Sai 8.0
+ a4 Nan 7.0
+ a5 Moe 4.0
+ a6 Lwin 2.0
