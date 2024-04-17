@@ -24,7 +24,7 @@ public class Main{
             sc.nextLine();
         }
         try {
-            FileWriter writer= new FileWriter("out.txt");
+            FileWriter writer= new FileWriter("out.txt", true);
             for(int i = 0; i < count ; i++){
                 writer.write(students[i].toString());
                 writer.write("\n");
