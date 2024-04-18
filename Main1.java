@@ -22,16 +22,16 @@ public class Main1 {
             while (line1 != null) {
               
                String[] arr = line1.split(" ");
-               id = arr[1];
-               name = arr[2];
-               gpa = Double.parseDouble(arr[3]);
+               id = arr[0];
+               name = arr[1];
+               gpa = Double.parseDouble(arr[2]);
                 students[i] = new Student(id,name,gpa);
                 i++;
                 line1 = reader1.readLine();
             }
-            double AGpa = 8.00;
-            double BGpa = 6.00;
-            double CGpa = 5.00;
+            double AGpa = 3.50;
+            double BGpa = 2.50;
+            double CGpa = 2.00;
            for (Student student : students) {
                if( student.getGpa() >= AGpa) {
                     System.out.println("class A students : " + student.getFullName());

@@ -37,7 +37,7 @@ public class Student {
     }
     @Override
     public String toString() {
-        return " " + id + " " + fullName + " " + gpa;
+        return id + " " + fullName + " " + gpa;
     }
     
 }
