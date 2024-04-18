@@ -90,7 +90,7 @@ public class Main1 {
     }
     public static void writeToFile(Student[] students,String fileName){
         try {
-            FileWriter writer= new FileWriter(fileName, true);
+            FileWriter writer= new FileWriter(fileName);
             for(int i = 0; i < students.length ; i++){
                 writer.write(students[i].toString());
                 writer.write("\n");
