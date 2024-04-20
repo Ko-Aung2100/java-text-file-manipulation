@@ -32,9 +32,9 @@ public class Main1 {
                 i++;
                 line1 = reader1.readLine();
             }
-            double AGpa = 3.50;
-            double BGpa = 2.50;
-            double CGpa = 2.00;
+            final double  AGpa = 3.50;
+            final double  BGpa = 2.50;
+            final double  CGpa = 2.00;
             int countA = 0;
             int countB = 0;
             int countC = 0;
@@ -96,7 +96,7 @@ public class Main1 {
                 writer.write("\n");
             }
             writer.close();
-            System.out.println("sucessfully wrote");
+            System.out.println("sucessfully wrote to " + fileName);
         } catch (IOException e) {
             // TODO: handle exception
             System.out.println("error");
